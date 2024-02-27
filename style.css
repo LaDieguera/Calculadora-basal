@@ -8,7 +8,7 @@ h1 {
 
 @import url('https://fonts.googleapis.com/css?amily=Montserrat:400,800');
 body{
-    background: #c0710aab; 
+    background:#F5F5DC; 
     font-family: 'Montserrat', sans-serif;
     color: #3E363F;
 }
@@ -72,6 +72,7 @@ button {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: transform 20ms ease-in;
+    margin-top: 15px;
 }
 
 button:active {
@@ -84,7 +85,7 @@ button:active {
     display: none;
 }
 
-.resultado{
+#resultado{
     color: #0A81D1;
     font-weight: bold;
     font-size: 25px;
